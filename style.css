@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Pacifico|Poppins|Fredoka+One");
+
+html {
+  background: -moz-linear-gradient(top, #241d33 0%, #171930 51%, #091119 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #241d33), color-stop(51%, #171930), color-stop(100%, #091119)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #241d33 0%, #171930 51%, #091119 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #241d33 0%, #171930 51%, #091119 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #241d33 0%, #171930 51%, #091119 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #241d33 0%, #171930 51%, #091119 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#241d33', endColorstr='#091119', GradientType=0);
+  height: 100%;
+}
+
+.contentWelcome {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+section {
+  display: inline-block;
+  width: 100%;
+}
+
+.contentWelcome {
+  margin-top: 15ch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.happy-t1 .NY-t1 {
+  width: 100%;
+}
+
+#snowGlobe {
+  position: relative;
+  display: inline;
+  float: left;
+  margin-top: 0;
+}
+#snowflakeContainer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.snowflake {
+  padding-left: 15px;
+  font-family: Times, Georgia, serif;
+  font-size: 14em;
+  line-height: 24px;
+  position: fixed;
+  color: #ffffff;
+  user-select: none;
+  z-index: 1000;
+}
+.snowflake:hover {
+  cursor: default;
+}
+
+#holidayMessage {
+  display: block;
+
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #ffffff;
+  font-size: 6em;
+  font-weight: normal;
+  margin-block-end: 0;
+}
+
+h2 {
+  font-family: "Fredoka One", cursive;
+  color: #ffffff;
+  font-size: 2.5em;
+  font-weight: normal;
+  line-height: 0.9em;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+p.script {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: normal;
+  text-align: left;
+}
+
+.title {
+  font-size: 1.5em;
+  font-family: "Fredoka One";
+}
+
+#logo path:nth-child(1) {
+  stroke-dasharray: 700px;
+  stroke-dashoffset: 700px;
+  animation: line-anim 4s ease forwards;
+}
+
+#logo path:nth-child(2) {
+  stroke-dasharray: 300px;
+  stroke-dashoffset: 300px;
+  animation: line-anim 10s ease forwards;
+}
+
+#logo path:nth-child(3) {
+  stroke-dasharray: 300px;
+  stroke-dashoffset: 300px;
+  animation: line-anim 10s ease forwards 1s;
+}
+
+#logo path:nth-child(4) {
+  stroke-dasharray: 300px;
+  stroke-dashoffset: 300px;
+  animation: line-anim 10s ease forwards 2s;
+}
+
+#logo path:nth-child(5) {
+  stroke-dasharray: 300px;
+  stroke-dashoffset: 300px;
+  animation: line-anim 10s ease forwards 3s;
+}
+
+#logo path:nth-child(6) {
+  stroke-dasharray: 300px;
+  stroke-dashoffset: 300px;
+  animation: line-anim 10s ease forwards 4s;
+}
+
+#logo path:nth-child(7) {
+  stroke-dasharray: 300px;
+  stroke-dashoffset: 300px;
+  animation: line-anim 10s ease forwards 5s;
+}
+
+#logo path:nth-child(8) {
+  stroke-dasharray: 300px;
+  stroke-dashoffset: 300px;
+  animation: line-anim 10s ease forwards 6s;
+}
+
+#logo path:nth-child(9) {
+  stroke-dasharray: 300px;
+  stroke-dashoffset: 300px;
+  animation: line-anim 10s ease forwards 7s;
+}
+
+@media (max-width: 1068px) {
+  .col-lg-6 {
+    width: 90%;
+    margin: 0 auto;
+    display: block !important;
+    float: none !important;
+  }
+
+  h1 {
+    font-size: 4em;
+    line-height: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    line-height: 0.8em;
+  }
+
+  h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  p.script {
+    font-size: 2em;
+  }
+
+  .title {
+    font-size: 1.2em !important;
+  }
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
